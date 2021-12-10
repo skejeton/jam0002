@@ -1,17 +1,19 @@
+//
+// Draws sierpinski triangle!
+//
 
 
-root {
-
-	rect
+root
+{
+	circle
 	{
-        color: rgb(0, 80, 0);
-        dimensions: vec2(50, 50);
-        //rotation: 45.0;
-        rect
-        {
-			 dimensions: vec2(50, 50);
-			 color: rgb(0, 0, 255, 255);
-			 position: vec2(50, 0);
-        }
-    }
+		position: vec2(50, 25);
+		radius: 25;
+	}
+
+	triangle
+	{
+		position: vec2(100, 25);
+		radius: 25;
+	}
 }
